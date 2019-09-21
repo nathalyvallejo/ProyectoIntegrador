@@ -53,3 +53,30 @@ def myNetwork():
     net.addLink(s7, s8)
     net.addLink(s8, h7)
     net.addLink(s8, h8)
+
+    info('*** Starting network\n')
+    net.build()
+    info('*** Starting controllers\n')
+    for controller in net.controllers:
+        controller.start()
+
+    info('*** Starting switches\n')
+    net.get('s5').start([])
+    net.get('s8').start([])
+    net.get('s4').start([])
+    net.get('s7').start([])
+    net.get('s1').start([])
+    net.get('s3').start([])
+    net.get('s6').start([])
+    net.get('s2').start([])
+
+    info('*** Post configure switches and hosts\n')
+
+    CLI(net)
+    net.stop()
+
+
+if __name__ == '__main__':
+    setLogLevel('info')
+    myNetwork()
+
