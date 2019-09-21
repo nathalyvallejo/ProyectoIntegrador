@@ -26,3 +26,13 @@ def myNetwork():
     s3 = net.addSwitch('s3', cls=OVSKernelSwitch, failMode='standalone')
     s6 = net.addSwitch('s6', cls=OVSKernelSwitch, failMode='standalone')
     s2 = net.addSwitch('s2', cls=OVSKernelSwitch, failMode='standalone')
+
+    info('*** Add hosts\n')
+    h5 = net.addHost('h5', cls=Host, ip='33.111.44.5', defaultRoute=None)
+    h3 = net.addHost('h3', cls=Host, ip='33.111.44.6', defaultRoute=None)
+    h6 = net.addHost('h6', cls=Host, ip='33.111.44.7', defaultRoute=None)
+    h7 = net.addHost('h7', cls=Host, ip='33.111.44.8', defaultRoute=None)
+    h4 = net.addHost('h4', cls=Host, ip='33.111.44.9', defaultRoute=None)
+    h1 = net.addHost('h1', cls=Host, ip='33.111.44.10', defaultRoute=None)
+    h8 = net.addHost('h8', cls=Host, ip='33.111.44.11', defaultRoute=None)
+    h2 = net.addHost('h2', cls=Host, ip='33.111.44.12', defaultRoute=None)
