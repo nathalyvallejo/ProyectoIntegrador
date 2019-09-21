@@ -38,7 +38,7 @@ MININET Y GIT
 * *sudo su* 
 * *apt-get install git*
 * *apt-get update* 
-* *git clone (https://github.com/nathalyvallejo/ProyectoIntegrador.git)*
+* *git clone https://github.com/nathalyvallejo/ProyectoIntegrador.git*
 * *cd mininet*
 * *git checkout -b 2.2.1 2.2.1*
 * *cd ..*
