@@ -2,7 +2,7 @@
 
 El presente proyecto es un script basado en python sobre la creación de  una topología que fué implementada en Mininet lo cuál permitirá ver sus conecciones a través de varios comandos que en lo posterior se indicará para ser puesto en funcionamiento.
 
-# Manual de Implementación 
+# Manual de Implementación 📋
 
 ### Prerequisitos
 
@@ -38,7 +38,7 @@ MININET Y GIT
 * *sudo su* 
 * *apt-get install git*
 * *apt-get update* 
-* *git clone https://github.com/nathalyvallejo/ProyectoIntegrador.git*
+* *git clone git clone git://github.com/mininet/mininet
 * *cd mininet*
 * *git checkout -b 2.2.1 2.2.1*
 * *cd ..*
@@ -54,15 +54,15 @@ Descarga del proyecto con Git en Máquina Virtual Ubuntu
 * *Luego abre la terminal de Ubuntu*
 
 ## Ejecutar los comandos en la terminal Ubuntu
-* *cd Escritorio *
-* *cd Proyecto *
+* *cd Escritorio*
+* *cd Proyecto*
 * *git clone [https://github.com/nathalyvallejo/ProyectoIntegrador.git] (https://github.com/nathalyvallejo/ProyectoIntegrador.git) *
 * *cd ProyectoIntegrador*
 * *sudo python ProyectoCEN.py*
 * *(pedirá su contraseña en caso de tenerla)*
 * *Y tendrá el proyecto de la topología realizada en mininet*
 
-## Comandos para Consultar en Mininet sobre el ProyectoCen.py
+## Comandos para Consultar en Mininet sobre el ProyectoCEN.py
 
 * Para comprobar el numero de dispositivos conectados utilice el comando *nodes*
 * Para ver como están conectados los dispositivos utilice el comando *net*
