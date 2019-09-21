@@ -3,13 +3,6 @@
 El presente proyecto es un script basado en python sobre la creación de  una topología que fué implementada en Mininet lo cuál permitirá ver sus conecciones a través de varios comandos que en lo posterior se indicará para ser puesto en funcionamiento.
 
 # Manual de Implementación 
-## Como tener una copia del Proyecto
-1. Crear una carpeta en el escritorio donde vas a visualizar el proyecto master
-2. Ahora te localizarás en la rama Master en GitHub
-3. Copiar la dirección http de la rama Master
-4. Ve a la carpeta que creaste en el escritorio
-5. Una vez dentro de la carpeta haz click derecho y selecciona Git Bash Here, se te abrirá un terminal de comandos la cuál para poder descargar el proyecto usarás el siguiente: <<git clone https://github.com/nathalyvallejo/ProyectoIntegrador >>
-6. Una vez completada la descarga podrás visualizar la carpeta del proyecto con el Nombre "ProyectoCEN.py" y listo.
 
 ### Prerequisitos
 
@@ -53,21 +46,30 @@ MININET Y GIT
 * Listo Ya estaría instalado el mininet en Ubuntu.  
 
 
-## Ejecutando Pruebas 
+# Ejecución del proyecto
 
 Descarga del proyecto con Git en Máquina Virtual Ubuntu 
 * Pasos:
-* *Crea carpeta con el nombre "Proyecto" en Escritorio**  
-* *Luego abre la terminal de Ubuntu**
+* *Crea carpeta con el nombre "Proyecto" en Escritorio* 
+* *Luego abre la terminal de Ubuntu*
 
-### Ejecutar los comandos en la terminal Ubuntu
+## Ejecutar los comandos en la terminal Ubuntu
 * *cd Escritorio 
 * *cd Proyecto 
-* *git clone [https://github.com/nathalyvallejo/ProyectoIntegrador.git](https://github.com/nathalyvallejo/ProyectoIntegrador.git)** 
-* *cd ProyectoIntegrador**  
-* *sudo python ProyectoCEN.py** 
-* *(pedirá su contraseña en caso de tenerla)**
-* *Y tendrá el proyecto de la topología realizada en mininet**  
+* *git clone [https://github.com/nathalyvallejo/ProyectoIntegrador.git] (https://github.com/nathalyvallejo/ProyectoIntegrador.git) 
+* *cd ProyectoIntegrador*
+* *sudo python ProyectoCEN.py*
+* *(pedirá su contraseña en caso de tenerla)*
+* *Y tendrá el proyecto de la topología realizada en mininet*
+
+## Comandos para Consultar en Mininet sobre el ProyectoCen.py
+
+* Para comprobar el numero de dispositivos conectados utilice el comando *nodes*
+* Para ver como están conectados los dispositivos utilice el comando *net*
+* Para ver que número de ip tienen asignados los host utilice el comando *dump*
+* Para ver la lista de procesos asociados a un host en específico por ejemplo: *h1 ps -a>> o h2 ps -a*, etc  
+* Para probar la conección utilice *pingall*
+* Para ver el ancho de banda utilice *iperf*
 
 
 ## Construido con 🛠️
@@ -80,11 +82,4 @@ Descarga del proyecto con Git en Máquina Virtual Ubuntu
 * **Eduardo Andres Villon Suarez** [eduardovillon](https://github.com/eduardovillon)
 * **Cesar Joel Mayorga Muñoz** [cmayorgam](https://github.com/cmayorgam)
 
-# Comandos para Consultar en Mininet sobre el ProyectoCen.py
 
-* Para comprobar el numero de dispositivos conectados utilice el comando *nodes*
-* Para ver como están conectados los dispositivos utilice el comando *net*
-* Para ver que número de ip tienen asignados los host utilice el comando *dump*
-* Para ver la lista de procesos asociados a un host en específico por ejemplo: *h1 ps -a>> o h2 ps -a*, etc  
-* Para probar la conección utilice *pingall*
-* Para ver el ancho de banda utilice *iperf*
