@@ -9,6 +9,7 @@ El presente proyecto es un script basado en python sobre la creación de  una to
 * [VirtualBox]
 * [ISO VirtualBox]
 * [Git]
+* [Mininet]
 
 ### Instalar
 ```
@@ -42,7 +43,8 @@ MININET Y GIT
 * *cd mininet*
 * *git checkout -b 2.2.1 2.2.1*
 * *cd ..*
-* *mininet/util/install.sh (Terminada la ejecución de este comando mostrará un mensaje como "Enjoy Mininet!" )*
+* *mininet/util/install.sh 
+* Terminada la ejecución de este comando mostrará un mensaje como "Enjoy Mininet!"
 * Listo Ya estaría instalado el mininet en Ubuntu.  
 
 
@@ -56,11 +58,11 @@ Descarga del proyecto con Git en Máquina Virtual Ubuntu
 ## Ejecutar los comandos en la terminal Ubuntu
 * *cd Escritorio*
 * *cd Proyecto*
-* *git clone [https://github.com/nathalyvallejo/ProyectoIntegrador.git] (https://github.com/nathalyvallejo/ProyectoIntegrador.git) *
+* *git clone [https://github.com/nathalyvallejo/ProyectoIntegrador.git] (https://github.com/nathalyvallejo/ProyectoIntegrador.git) 
 * *cd ProyectoIntegrador*
 * *sudo python ProyectoCEN.py*
-* *(pedirá su contraseña en caso de tenerla)*
-* *Y tendrá el proyecto de la topología realizada en mininet*
+* Pedirá su contraseña en caso de tenerla
+* Y tendrá el proyecto de la topología realizada en mininet
 
 ## Comandos para Consultar en Mininet sobre el ProyectoCEN.py
 
@@ -77,7 +79,7 @@ Descarga del proyecto con Git en Máquina Virtual Ubuntu
 * [Mininet](http://mininet.org/)
 
 
-## Authors
+## Autores 🤓
 * **Nathaly Noemí Vallejo Pimentel** [nathalyvallejo](https://github.com/nathalyvallejo)
 * **Eduardo Andres Villon Suarez** [eduardovillon](https://github.com/eduardovillon)
 * **Cesar Joel Mayorga Muñoz** [cmayorgam](https://github.com/cmayorgam)
