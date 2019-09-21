@@ -35,14 +35,14 @@ MININET Y GIT
 * Abrir la terminal de Ubuntu
 * Entrar como administrador
 * Ejecutar los siguientes comandos:
-* *sudo su 
-* *apt-get install git
-* *apt-get update 
-* *git clone git://github.com/mininet/mininet
-* *cd mininet
-* *git checkout -b 2.2.1 2.2.1
-* *cd ..
-* *mininet/util/install.sh (Terminada la ejecución de este comando mostrará un mensaje como "Enjoy Mininet!" )
+* *sudo su* 
+* *apt-get install git*
+* *apt-get update* 
+* *git clone (https://github.com/nathalyvallejo/ProyectoIntegrador.git)*
+* *cd mininet*
+* *git checkout -b 2.2.1 2.2.1*
+* *cd ..*
+* *mininet/util/install.sh (Terminada la ejecución de este comando mostrará un mensaje como "Enjoy Mininet!" )*
 * Listo Ya estaría instalado el mininet en Ubuntu.  
 
 
@@ -54,9 +54,9 @@ Descarga del proyecto con Git en Máquina Virtual Ubuntu
 * *Luego abre la terminal de Ubuntu*
 
 ## Ejecutar los comandos en la terminal Ubuntu
-* *cd Escritorio 
-* *cd Proyecto 
-* *git clone [https://github.com/nathalyvallejo/ProyectoIntegrador.git] (https://github.com/nathalyvallejo/ProyectoIntegrador.git) 
+* *cd Escritorio *
+* *cd Proyecto *
+* *git clone [https://github.com/nathalyvallejo/ProyectoIntegrador.git] (https://github.com/nathalyvallejo/ProyectoIntegrador.git) *
 * *cd ProyectoIntegrador*
 * *sudo python ProyectoCEN.py*
 * *(pedirá su contraseña en caso de tenerla)*
